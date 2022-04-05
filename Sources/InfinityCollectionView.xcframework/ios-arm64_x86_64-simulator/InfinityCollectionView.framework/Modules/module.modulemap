@@ -1,0 +1,11 @@
+framework module InfinityCollectionView {
+  umbrella header "InfinityCollectionView.h"
+
+  export *
+  module * { export * }
+}
+
+module InfinityCollectionView.Swift {
+    header "InfinityCollectionView-Swift.h"
+    requires objc
+}
