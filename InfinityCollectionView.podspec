@@ -15,7 +15,7 @@ This CocoaPods library helps you perform calculation.
   spec.ios.deployment_target = "13.0"
   spec.swift_version = "4.2"
 
-  spec.source        = { :git => "https://github.com/LaptrinhvaCuocsong/InfinityCollectionView.git", :tag => "v#{spec.version}" }
+  spec.source        = { :git => "https://github.com/LaptrinhvaCuocsong/InfinityCollectionView.git", :tag => "#{spec.version}" }
   spec.source_files  = "InfinityCollectionView/*.{h,m,swift}"
 
 end
